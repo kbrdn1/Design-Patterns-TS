@@ -4,7 +4,7 @@
 ## Définition
 
 Permet de gérer des états sur des objets tout en gardant la flexibilité d’opérer toutes les actions que voulues sur chaque état.
-Sans avoir à enchainer les `if (x.state === State.closed) {…}.
+Sans avoir à enchainer les `if (x.state === State.closed) {…}`.
 On change le state d’un objet et c’est ce state s’auto-gère en fonction des opérations qui sont proposées par l’interface State. 
 
 ## Problématique
