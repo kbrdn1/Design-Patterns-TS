@@ -11,10 +11,10 @@ interface IGateState {
 }
 
 class Gate {
-  private state: IGateState | null;
+  private state: IGateState;
 
   constructor(initialState: IGateState | null = null) {
-    this.state = initialState;
+    this.state = initialState ?? new ClosedGateState(this);
   }
 
   setState(state: IGateState): void {
@@ -22,15 +22,15 @@ class Gate {
   }
 
   enter(): void {
-    !this.state ? console.log("No state set.") : this.state.enter();
+    this.state.enter();
   }
 
   pay(): void {
-    !this.state ? console.log("No state set.") : this.state.pay();
+    this.state.pay();
   }
 
   payFailed(): void {
-    !this.state ? console.log("No state set.") : this.state.payFailed();
+    this.state.payFailed();
   }
 }
 
@@ -42,16 +42,16 @@ class OpenGateState implements IGateState {
   }
 
   enter(): void {
-    console.log("Entering through the open gate.");
-    this.gate.setState(new ClosedGateState(this.gate));
+    console.log("Gate already open. Entering through the open gate.");
   }
 
   pay(): void {
     console.log("Gate is already open. No need to pay.");
+    this.gate.setState(new OpenGateState(this.gate));
   }
 
   payFailed(): void {
-    console.log("Payment failed but gate is already open.");
+    console.log("Payment failed");
   }
 }
 
@@ -63,33 +63,35 @@ class ClosedGateState implements IGateState {
   }
 
   enter(): void {
-    console.log("Gate is closed. Cannot enter.");
-  }
-
-  pay(): void {
-    console.log("Payment successful. Opening gate.");
+    console.log("Opening gate to let you in.");
     this.gate.setState(new OpenGateState(this.gate));
   }
 
+  pay(): void {
+    console.log("You can't enter yet. Please wait for the gate to open.");
+  }
+
   payFailed(): void {
-    console.log("Payment failed. Gate remains closed.");
+    console.log("Payment failed.");
   }
 }
 
 const gate = new Gate()
 
-gate.enter() // No state set.
-gate.pay() // No state set.
-gate.payFailed() // No state set.
-
-gate.setState(new ClosedGateState(gate))
-
-gate.enter() // Gate is closed. Cannot enter.
-gate.pay() // Payment successful. Opening gate.
-gate.payFailed() // Payment failed. Gate remains closed.
-
-gate.setState(new OpenGateState(gate))
-
-gate.enter() // Entering through the open gate.
+gate.enter() // Opening gate to let you in.
+gate.pay() // You can't enter yet. Please wait for the gate to open.
+gate.payFailed() // Payment failed.
+gate.enter() // Gate already open. Entering through the open gate.
 gate.pay() // Gate is already open. No need to pay.
-gate.payFailed() // Payment failed but gate is already open.
+gate.payFailed() // Payment failed.
+
+const gate2 = new Gate()
+
+gate2.pay() // You can't enter yet. Please wait for the gate to open.
+gate2.payFailed() // Payment failed.
+gate2.enter() // Opening gate to let you in.
+gate2.pay() // Gate is already open. No need to pay.
+gate2.payFailed() // Payment failed.
+gate2.enter() // Gate already open. Entering through the open gate.
+gate2.pay() // Gate is already open. No need to pay.
+gate2.payFailed() // Payment failed.
