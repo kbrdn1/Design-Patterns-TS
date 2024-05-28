@@ -21,6 +21,8 @@ De manière générale, comment gérer la commande ? et l'inverser ?
  
 - Permet également de réaliser une succession d’opérations complexes (si utilisé avec le pattern composite, que l’on verra plus tard)
 
+![UML Command](https://raw.githubusercontent.com/kbrdn1/Design-Patterns-TS/main/assets/UML-Command.png)
+
 ## Exercice
 Exercice (Réaliser un pattern Command)
 
