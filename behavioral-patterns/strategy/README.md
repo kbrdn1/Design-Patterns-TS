@@ -19,10 +19,13 @@ Par contre, si les enfants veulent partager du code entre eux, aucun moyen de le
 
 - Et surtout avoir des algorithmes interchangeables au runtime sans avoir à multiplier les classes.
 
+![ULM Strategy](https://raw.githubusercontent.com/kbrdn1/Design-Patterns-TS/main/assets/ULM-Strategy.png)
+
 ## Exercice
 Exercice (Réaliser un pattern Strategy)
 
 Reprenez le pattern Stratégie pour l’appliquer à ce sujet :
+![Exercice Strategy](https://raw.githubusercontent.com/kbrdn1/Design-Patterns-TS/main/assets/Exercice-Strategy.png)
 
 Une interface StrategieInterface ayant pour contrat function reagir(PersonneInterface $personne);
 

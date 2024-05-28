@@ -15,6 +15,8 @@ Pour que les opérations soient gardées en mémoire, on ne peut pas le faire, c
 
 S’assurer qu’un objet est instancier qu’une seule fois et y avoir accès facilement depuis n’importe où dans votre application. 
 
+![ULM Singleton](https://raw.githubusercontent.com/kbrdn1/Design-Patterns-TS/main/assets/ULM-Singleton.png)
+
 ## Désavantages
 
 Certains estiment que le pattern singleton est un mauvais pattern (à ne pas confondre avec anti-pattern). Pour deux raisons, à ma connaissance :

@@ -16,6 +16,8 @@ Les interfaces exposées ne sont pas toujours compatibles avec ce que nous avons
  
 - Peut-être facilement mis en place même après coup, à moindre coût
 
+![ULM Adapter](https://raw.githubusercontent.com/kbrdn1/Design-Patterns-TS/main/assets/ULM-Adapter.png)
+
 ## Exercice
 Exercice (Réaliser un pattern Adapter)
 
