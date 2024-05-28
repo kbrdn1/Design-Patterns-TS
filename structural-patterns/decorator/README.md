@@ -21,7 +21,7 @@ Duplication de code et multiplication des classes pour gérer toutes les possibi
 
 - Le fait d’envelopper permet de facilement exécuter des opérations qui sont à effectuer sur chaque enveloppe pour en avoir un résultat global (prix d’une boisson par exemple)
 
-![ULM Decorator](https://raw.githubusercontent.com/kbrdn1/Design-Patterns-TS/main/assets/ULM-Decorator.png)
+![UML Decorator](https://raw.githubusercontent.com/kbrdn1/Design-Patterns-TS/main/assets/UML-Decorator.png)
 
 > Attention, ça ne permet pas de connaître l'ordre de décoration !!!
 

@@ -23,7 +23,7 @@ Ceci n’est pas efficace.
 
 - Supprimer la question de l’intervalle d’interrogation
 
-![ULM Observer](https://raw.githubusercontent.com/kbrdn1/Design-Patterns-TS/main/assets/ULM-Observer.png)
+![UML Observer](https://raw.githubusercontent.com/kbrdn1/Design-Patterns-TS/main/assets/UML-Observer.png)
 
 ## Exercice
 Exercice (Réaliser un pattern Observer)

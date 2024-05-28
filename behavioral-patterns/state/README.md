@@ -19,7 +19,7 @@ D’une part, c’est incompréhensible à premier abord (surtout sans commentai
  
 - Découplage fort
 
-![ULM State](https://raw.githubusercontent.com/kbrdn1/Design-Patterns-TS/main/assets/ULM-State.png)
+![UML State](https://raw.githubusercontent.com/kbrdn1/Design-Patterns-TS/main/assets/UML-State.png)
 
 ## Exercice 1
 Exercice (Réaliser un pattern State)
