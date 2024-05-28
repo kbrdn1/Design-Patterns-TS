@@ -1,4 +1,5 @@
 # Singleton
+[Refactoring Guru - Singleton](https://refactoring.guru/design-patterns/singleton)
 
 ## Définition
 Le pattern singleton est le plus simple des patterns, il permet de s’assurer qu’un objet est instancier qu’une et une seule fois dans toute votre application.

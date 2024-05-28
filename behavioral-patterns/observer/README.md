@@ -1,5 +1,5 @@
 # Observer
-
+[Refactoring Guru - Observer](https://refactoring.guru/design-patterns/observer)
 ## Définition
 
 Définir une dépendance entre un objet observé et un ou plusieurs objets observants.

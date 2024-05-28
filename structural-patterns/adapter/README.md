@@ -1,4 +1,5 @@
 # Adapter
+[Refactoring Guru - Adapter](https://refactoring.guru/design-patterns/adapter)
 
 ## Définition
 

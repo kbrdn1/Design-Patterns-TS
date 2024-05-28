@@ -1,4 +1,5 @@
 # Decorator
+[Refactoring Guru - Decorator](https://refactoring.guru/design-patterns/decorator)
 
 ## Définition
 Permet d’ajouter dynamiquement des propriétés à un objet.

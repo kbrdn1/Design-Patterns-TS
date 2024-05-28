@@ -1,4 +1,5 @@
 # State
+[Refactoring Guru - State](https://refactoring.guru/design-patterns/state)
 
 ## Définition
 

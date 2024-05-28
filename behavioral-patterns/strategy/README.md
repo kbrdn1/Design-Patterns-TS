@@ -1,4 +1,5 @@
 # Strategy
+[Refactoring Guru - Strategy](https://refactoring.guru/design-patterns/strategy)
 
 ## Définition
 
