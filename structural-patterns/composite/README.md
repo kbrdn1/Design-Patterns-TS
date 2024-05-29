@@ -29,11 +29,11 @@ Comment gérer de la récursivité de manière transparente pour le code utilisa
 
 Exercice (Réaliser un pattern Composite)
 
-Réaliser un pattern composite, l'idée est de pouvoir construire une arborescence de <ul> et de <li> imbriqués grâce au pattern composite. Il vous faut :
+Réaliser un pattern composite, l'idée est de pouvoir construire une arborescence de `<ul>` et de `<li>` imbriqués grâce au pattern composite. Il vous faut :
 
 - Une interface commune (avec une méthode, par exemple : operation())
-- Une classe pour le <li> (enfant) : Celle-ci contient une propriété en string qu'elle set depuis le constructeur. Ainsi qu'une méthode operation() retournant cette propriété.
-- Une classe pour le <ul> (parent) : Celle-ci contient la propriété listant les classes <li>, ces sous éléments peuvent êtres setté depuis le constructeur & par des méthodes d'ajout et de suppression d'élément. Ici la méthode operation() va parcourir la liste des sous éléments pour réaliser l'affichage des <ul> / <li>
+- Une classe pour le `<li>` (enfant) : Celle-ci contient une propriété en string qu'elle set depuis le constructeur. Ainsi qu'une méthode operation() retournant cette propriété.
+- Une classe pour le `<ul>` (parent) : Celle-ci contient la propriété listant les classes `<li>`, ces sous éléments peuvent êtres setté depuis le constructeur & par des méthodes d'ajout et de suppression d'élément. Ici la méthode operation() va parcourir la liste des sous éléments pour réaliser l'affichage des `<ul>` / `<li>`
 
 Réalisez le diagramme UML + le code d'implémentation
 
