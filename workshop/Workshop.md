@@ -2,7 +2,7 @@
 Ce workshop a pour objectif de vous faire pratiquer l'ensemble des designs patterns sur un sujet précis. Le but n'est pas d'avoir un produit fini, mais un prototype préparé en vue de la réalisation d'une application complète par la suite (que vous ne ferrez pas).
 Vous aurez à disposition, la liste des patterns associé à un sujet, l'UML proposé pour chaque pattern, ainsi que quelques explications / précisions quand nécessaire.
 Vous devez :
-- Implémenter chaque pattern en C#
+- Implémenter chaque pattern en TypeScript
 - Réaliser le code client pour tester le bon fonctionnement du pattern
 
 Aucune interface utilisateur n'est requise pour cet exercice, uniquement les objets métiers.
