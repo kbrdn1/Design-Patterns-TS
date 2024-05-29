@@ -16,3 +16,5 @@ Comment ajouter plusieurs opérations à des objets sans avoir à les modifier ?
 - Modularité de code accrue
  
 - Permettre de laisser le choix des opérations qui peuvent être effectuées sans avoir à se soucier des possibilités d'interdictions
+
+![UML Visitor](https://raw.githubusercontent.com/kbrdn1/Design-Patterns-TS/main/assets/UML-Visitor.png)
