@@ -54,4 +54,6 @@ classDiagram
     MacCheckbox : +paint()
 ```
 
+![UML Exercie Abstract Factory](https://raw.githubusercontent.com/kbrdn1/Design-Patterns-TS/main/assets/Exercice-AF.png)
+
 </details>
