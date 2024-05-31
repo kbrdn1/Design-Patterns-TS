@@ -4,7 +4,9 @@ console.log("========================================")
 console.log("Exercice: Patterns - Factory")
 console.log("========================================")
 
-interface ICarFactory {}
+interface ICarFactory {
+  createCar(type?: string): ICar;
+}
 
 interface ICar {}
 
