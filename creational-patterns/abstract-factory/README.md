@@ -21,7 +21,7 @@ Comment ajouter la possibilité de gérer des objets interdépendants au Factory
  
 - S'assurer de l'interopérabilité des classes
 
-![UML Abstract Factory](https://raw.githubusercontent.com/kbrdn1/Design-Patterns-TS/main/assets/UML-AB.png)
+![UML Abstract Factory](https://raw.githubusercontent.com/kbrdn1/Design-Patterns-TS/main/assets/UML-AF.png)
 
 ## Exercice
 Exercice (Réaliser un pattern Abstract Factory)
